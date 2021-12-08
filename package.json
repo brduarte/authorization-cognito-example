@@ -1,0 +1,33 @@
+{
+  "name": "auth-cognito-exemple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "brduarte",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules -r tsconfig-paths/register --files src/shared/http"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.2.3",
+    "aws-jwt-verify": "^1.0.3",
+    "aws-sdk": "^2.1043.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.2",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.2"
+  }
+}
