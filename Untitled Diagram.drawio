@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T00:27:35.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="I1aZ7Cixl9fvOgTdjTHE" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T00:33:24.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="_bRFTmjBivzzzEj_1N4t" version="15.9.4" type="github">
   <diagram id="7jE4DUKBlsDNwrlAhUQe" name="Page-1">
     <mxGraphModel dx="1053" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,8 +83,8 @@
         <mxCell id="vmCSwUYNKsTT_10NAd4f-68" value="Verificação do Token JWT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#1A1A1A;" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vmCSwUYNKsTT_10NAd4f-74" value="Dados do Usuário" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="360" y="250" width="110" height="20" as="geometry" />
+        <mxCell id="vmCSwUYNKsTT_10NAd4f-74" value="OK | ERROR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="364" y="250" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
