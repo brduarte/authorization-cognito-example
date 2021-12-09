@@ -1,6 +1,6 @@
 # Authorization Cognito Exemple
 
-Esse projeto contempla apenas a parte do backend representada no diagrama abaixo. A integração demostrada aqui foi feita utilizando a UI de login fornecida pelo Cognito mas você está livre para usar sua própria UI desde que ela envie para o backend um token JWT gerado pelo Cognito.
+Esse projeto contempla apenas a parte do backend representada no diagrama abaixo. A integração demostrada aqui foi feita utilizando a UI de login fornecida pelo Cognito, mas você está livre para usar sua própria UI desde que ela envie para o backend um token JWT gerado pelo Cognito.
  
  <p align="center"> 
  <img align="center" src="https://user-images.githubusercontent.com/29002558/145313058-33aa98c5-4be8-47cb-8ebc-9a9948d127ab.png" alt="Untitled Diagram drawio">
