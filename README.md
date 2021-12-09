@@ -13,7 +13,12 @@ Esse projeto contempla apenas a parte de backend representada no diagrama abaixo
 
 ## 👨‍💻 Configurando o Projeto
 
-Renomeie o arquivo .env.example para .env e preencha as variáveis com as credenciais de aplicativos do Cognito.
+Renomeie o arquivo `.env.example` para `.env` e preencha as variáveis com as credenciais de aplicativos do Cognito.
+
+```sh
+$ cp .env.example .env
+```
+
 
 | Env | Descrição |
 | --- | --- |
