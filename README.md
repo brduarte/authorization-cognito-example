@@ -47,7 +47,7 @@ $ yarn install
 $ yarn start
 ```
 
-## 👨🏽‍🏫 Requisição de Exemplo
+## ▶️ Requisição de Exemplo
 
 ```curl
 
