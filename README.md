@@ -1,4 +1,4 @@
-# Auth Cognito Exemple
+# Authorization Cognito Exemple
 
 Esse projeto contempla apenas a parte do backend representada no diagrama abaixo. A integração demostrada aqui foi feita utilizando a UI de login fornecida pelo Cognito mas você está livre para usar sua própria UI desde que ela envie para o backend um token JWT gerado pelo Cognito.
  
