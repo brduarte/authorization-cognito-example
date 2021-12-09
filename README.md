@@ -37,11 +37,12 @@ AWS_COGNITO_ALLOW_CLIENTS=client-id-1,client-id-2,client-id-3
 
 Depois que você configurar o `environment(.env)` do projeto basta você executar os seguintes comandos.
 
-```
-yarn install
+```sh
+// Instalando dependências
+$ yarn install
 ```
 
-```
-yarn dev
+```sh
+$ yarn start
 ```
 
