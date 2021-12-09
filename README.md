@@ -43,6 +43,7 @@ $ yarn install
 ```
 
 ```sh
+// Executando o projeto
 $ yarn start
 ```
 
