@@ -18,7 +18,7 @@ Renomeie o arquivo `.env.example` para `.env` e preencha as variáveis com as cr
 $ cp .env.example .env
 ```
 
-Atributos do arquivo .env
+Atributos do arquivo `.env`
 
 | Env | Descrição |
 | --- | --- |
