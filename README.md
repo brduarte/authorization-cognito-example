@@ -10,7 +10,7 @@ Esse projeto contempla apenas a parte de backend representada no diagrama abaixo
   - Express
   - Cognito
 
-## 👨‍💻 Configurando o Projeto
+## 👨‍💻 Configurações do Projeto
 
 Renomeie o arquivo `.env.example` para `.env` e preencha as variáveis com as credenciais de aplicativos do Cognito.
 
@@ -33,4 +33,15 @@ No Cognito cada User Pool permite a configuração de várias chaves de cliente 
 AWS_COGNITO_ALLOW_CLIENTS=client-id-1,client-id-2,client-id-3
 ```
 
+## 👨‍💻 Executando
+
+Depois que você configurar o `environment(.env)` do projeto basta você executar os seguintes comandos.
+
+```
+yarn install
+```
+
+```
+yarn dev
+```
 
