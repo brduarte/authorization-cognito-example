@@ -26,7 +26,7 @@ Atributos do arquivo .env
 | AWS_COGNITO_USER_POOL_ID | ID do Pool de usuários. |
 | AWS_COGNITO_ALLOW_CLIENTS | Chave do cliente aplicativo para validar se origem do login pode ter acesso a API. |
 
-No Cognito cada User Pool permite a configuração de várias chaves de clientes de aplicativos, se esse for o seu caso você lista-las na variavel `AWS_COGNITO_ALLOW_CLIENTS` separando-as por virgula:
+No Cognito cada User Pool permite a configuração de várias chaves de cliente aplicativos, se esse for o seu caso, você pode lista-las na variavel `AWS_COGNITO_ALLOW_CLIENTS` separando-as por virgula:
 
 **Ex:**
 ```.env
