@@ -23,7 +23,7 @@ const authorizationMiddleware = async (req: Request, res: Response, next: NextFu
 
     next();
   } catch (error: any) {
-    return res.status(error.statusCode).json({
+    return res.status(401).json({
       message: error.message,
     });
   }

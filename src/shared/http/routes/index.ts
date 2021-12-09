@@ -4,7 +4,6 @@ const routers = Router();
 
 routers.get('/me', (req: Request, res: Response) => {
   const { session: { user } } = req;
-
   return res.json(user);
 });
 

@@ -5,7 +5,7 @@
   "author": "brduarte",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --ignore-watch node_modules -r tsconfig-paths/register --files src/shared/http"
+    "start": "ts-node-dev --ignore-watch node_modules -r tsconfig-paths/register --files src/shared/http"
   },
   "dependencies": {
     "amazon-cognito-identity-js": "^5.2.3",
