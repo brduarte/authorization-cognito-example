@@ -8,8 +8,7 @@ Esse projeto contempla apenas a parte de backend representada no diagrama abaixo
 ## ⚒️ Ferramentas Utilizadas 
   - Node.js v16.13.0
   - Express
-  - amazon-cognito-identity-js
-  - aws-jwt-verify
+  - Cognito
 
 ## 👨‍💻 Configurando o Projeto
 
@@ -19,11 +18,19 @@ Renomeie o arquivo `.env.example` para `.env` e preencha as variáveis com as cr
 $ cp .env.example .env
 ```
 
+Atributos do arquivo .env
 
 | Env | Descrição |
 | --- | --- |
 | AWS_COGNITO_REGION | Região de configuração do cognito. |
 | AWS_COGNITO_USER_POOL_ID | ID do Pool de usuários. |
-| AWS_COGNITO_ALLOW_CLIENTS | Lista de Clients ID's separados por vírgula. |
+| AWS_COGNITO_ALLOW_CLIENTS | Chave do cliente aplicativo para validar se origem do login pode ter acesso a API. |
+
+No Cognito cada User Pool permite a configuração de várias chaves de clientes de aplicativos, se esse for o seu caso você lista-las na variavel `AWS_COGNITO_ALLOW_CLIENTS` separando-as por virgula:
+
+**Ex:**
+```.env
+AWS_COGNITO_ALLOW_CLIENTS=client-id-1,client-id-2,client-id-3
+```
 
 
