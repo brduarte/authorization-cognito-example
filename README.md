@@ -45,7 +45,7 @@ $ yarn install
 ```sh
 // Executando o projeto
 $ yarn start
--- info: � Server is running on port 3001 {"timestamp":"2021-12-09T01:51:00.618Z"}
+--- info: � Server is running on port 3001 {"timestamp":"2021-12-09T01:51:00.618Z"}
 ```
 
 ## ▶️ Requisição de Exemplo
