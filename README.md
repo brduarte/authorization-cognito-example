@@ -1,6 +1,6 @@
 # Auth Cognito Exemple
 
-Esse projeto contempla apenas a parte de backend representada no diagrama abaixo. A integração foi feita utilizando a UI de login fornecida pelo Cognito mas você está livre para usar sua própria UI desde que ela envie para esse backend um token JWT gerado pelo Cognito.
+Esse projeto contempla apenas a parte do backend representada no diagrama abaixo. A integração demostrada aqui foi feita utilizando a UI de login fornecida pelo Cognito mas você está livre para usar sua própria UI desde que ela envie para o backend um token JWT gerado pelo Cognito.
  
  <p align="center"> 
  <img align="center" src="https://user-images.githubusercontent.com/29002558/145313058-33aa98c5-4be8-47cb-8ebc-9a9948d127ab.png" alt="Untitled Diagram drawio">
@@ -28,7 +28,7 @@ Atributos do arquivo `.env`
 | AWS_COGNITO_USER_POOL_ID | ID do Pool de usuários. |
 | AWS_COGNITO_ALLOW_CLIENTS | Chave do cliente aplicativo para validar se origem do login pode ter acesso a API. |
 
-No Cognito cada User Pool permite a configuração de várias chaves de cliente aplicativos, se esse for o seu caso, você pode lista-las na variavel `AWS_COGNITO_ALLOW_CLIENTS` separando-as por virgula:
+No Cognito, cada User Pool permite a configuração de várias chaves de cliente aplicativo, se esse for o seu caso, você pode lista-las na variavel `AWS_COGNITO_ALLOW_CLIENTS` separando as chaves por virgula.
 
 **Ex:**
 ```.env
