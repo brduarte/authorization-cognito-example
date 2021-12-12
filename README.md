@@ -55,7 +55,6 @@ $ yarn start
 ```curl
 
 curl --location --request GET 'http://localhost:3001/me' \
---header 'marketplaceId: 5' \
 --header 'Authorization: eyJraWQiOiJjeDQ1aW1XczAxY....'
 
 ```
